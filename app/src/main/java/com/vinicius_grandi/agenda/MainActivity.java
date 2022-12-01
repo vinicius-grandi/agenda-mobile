@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private int getIntColor(int colorId) {
+        // ContentCompat.getColor(context, color) returns a color int like 0x00000000
         return ContextCompat.getColor(this, colorId);
     }
 
